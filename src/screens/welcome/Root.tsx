@@ -15,7 +15,7 @@ export const Root = () => {
         trigger: "#page-content",
         pin: true,
         start: "top top",
-        end: "+=500%",
+        end: "+=400%",
         scrub: 1,
         invalidateOnRefresh: true,
       }, defaults: {
@@ -80,10 +80,12 @@ export const Root = () => {
     <div id='animation-wrapper' className='relative'>
       <Welcome/>
       <HorizontalScroll/>
-      <div className='h-screen w-full bg-base-100 flex flex-col items-center justify-center relative text-center'>
-        <h1 className='text-6xl font-cyberpunk'> Vote </h1>
-        <h1 className='text-6xl font-cyberpunk text-violet-600'> #wise_city </h1>
-        <h1 className='text-6xl font-cyberpunk'> for your Best Coding Marathon 2024 winner </h1>
+      <div className='h-screen w-full flex flex-col items-center justify-center relative '>
+        <div className="bg-base-100 rounded-[20rem] w-[75%] h-[75%] text-center flex flex-col items-center justify-center">
+            <h1 className='text-6xl font-cyberpunk'> Vote </h1>
+            <h1 className='text-6xl font-cyberpunk text-violet-600'> #wise_city </h1>
+            <h1 className='text-wrap text-6xl font-cyberpunk'> for your Best Coding Marathon 2024 winner </h1>
+        </div>
       </div>
     </div>
   )
