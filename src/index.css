@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: cyberpunk;
-  src: url('./fonts/GlitchGoblin.ttf');
+  src: url('./assets/fonts/GlitchGoblin.ttf');
 }
 body {
   overflow-x: hidden;
